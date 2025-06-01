@@ -184,3 +184,41 @@ body {
     min-width: 60px; /* Fixed width for value display */
     text-align: right;
 }
+
+.description {
+    max-width: 700px;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+    color: #2d3748;
+}
+
+.description h2 {
+    margin-top: 0;
+    color: #1a202c;
+}
+
+.description p {
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.description pre {
+    background-color: #f7fafc;
+    padding: 10px;
+    border-left: 4px solid #4a5568;
+    font-family: 'Courier New', monospace;
+    overflow-x: auto;
+    margin: 10px 0;
+}
+
+.description ul {
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.description li {
+    margin-bottom: 5px;
+}
